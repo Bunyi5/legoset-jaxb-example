@@ -10,6 +10,7 @@ import java.util.*;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"number", "name", "theme", "subtheme", "year", "pieces", "tags", "minifigs", "weight", "url"})
 @Data
 public class LegoSet {
 
